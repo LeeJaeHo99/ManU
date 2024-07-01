@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 16px 18px;
+
+    img{
+        width: 42px;
+    }
+    h1{
+        font-size: 32px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        color: #B92336;
+    }
+}

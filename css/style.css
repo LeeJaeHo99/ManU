@@ -1,0 +1,263 @@
+body {
+  width: 393px;
+  height: 780px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.intro .intro-img {
+  width: 40%;
+}
+.intro .intro-text {
+  margin-top: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.intro .intro-text .intro-text--name {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+}
+header img {
+  width: 42px;
+}
+header h1 {
+  font-size: 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #B92336;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+  width: 100%;
+  margin-top: 24px;
+}
+.btn-wrap > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 90%;
+}
+.btn-wrap .btn {
+  width: 40%;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.1450980392);
+  font-family: "Oswald", "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #B92336;
+  text-align: center;
+  line-height: 110px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrap {
+  width: 100%;
+}
+.video-wrap video {
+  width: 100%;
+}
+
+.desc-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.desc-wrap .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 90%;
+  height: 60%;
+  background-color: #7a1422;
+  border-radius: 12px;
+}
+.desc-wrap .desc img {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+.desc-wrap .desc .desc-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 120px;
+  margin-left: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.desc-wrap .desc .close-info {
+  width: 80px;
+  height: 50px;
+  margin-top: 120px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: auto;
+  font-family: "oswald", sans-serif;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  line-height: 48px;
+}
+
+.player-info__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  display: none;
+}
+.player-info__wrap .player-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.player-info__wrap .player-info .player {
+  display: flex;
+  align-items: flex-end;
+  width: 80%;
+  height: 20%;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  background-color: rgba(255, 0, 0, 0.1254901961);
+  background-size: cover;
+  border-radius: 8px;
+  font-family: "Oswald", "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.midfielder .player-info {
+  height: 85% !important;
+}
+.midfielder .player {
+  height: 15% !important;
+}
+
+.rashford {
+  background: url(/images/player/rashford-btn.jpg) no-repeat center;
+}
+
+.hojlund {
+  background: url(/images/player/hojlund-btn.jpg) no-repeat 0px -60px;
+}
+
+.garnacho {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.anthony {
+  background: url(/images/player/antony-btn.jpg) no-repeat 0px -60px;
+}
+
+.bruno {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.casemiro {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.mount {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.mainoo {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.mctominay {
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+}
+
+.slide-wrap {
+  width: 100%;
+  height: 491px;
+  position: relative;
+}
+.slide-wrap .slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slide-wrap .slide .slide1, .slide-wrap .slide .slide2, .slide-wrap .slide .slide3, .slide-wrap .slide .slide4, .slide-wrap .slide .slide5 {
+  transition: all 1s;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.slide-wrap .slide .on {
+  opacity: 1 !important;
+}
+.slide-wrap .slide .slide1 {
+  background: url(/images/slide-1.jpg) no-repeat center;
+}
+.slide-wrap .slide .slide2 {
+  background: url(/images/slide-2.jpg) no-repeat center;
+}
+.slide-wrap .slide .slide3 {
+  background: url(/images/slide-3.jpg) no-repeat center;
+}
+.slide-wrap .slide .slide4 {
+  background: url(/images/slide-4.jpg) no-repeat center;
+}
+.slide-wrap .slide .slide5 {
+  background: url(/images/slide-5.jpg) no-repeat center;
+}/*# sourceMappingURL=style.css.map */
