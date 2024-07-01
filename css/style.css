@@ -186,39 +186,39 @@ header h1 {
 }
 
 .rashford {
-  background: url(/images/player/rashford-btn.jpg) no-repeat center;
+  background: url(./images/player/rashford-btn.jpg) no-repeat center;
 }
 
 .hojlund {
-  background: url(/images/player/hojlund-btn.jpg) no-repeat 0px -60px;
+  background: url(./images/player/hojlund-btn.jpg) no-repeat 0px -60px;
 }
 
 .garnacho {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .anthony {
-  background: url(/images/player/antony-btn.jpg) no-repeat 0px -60px;
+  background: url(./images/player/antony-btn.jpg) no-repeat 0px -60px;
 }
 
 .bruno {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .casemiro {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .mount {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .mainoo {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .mctominay {
-  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .slide-wrap {
@@ -247,17 +247,17 @@ header h1 {
   opacity: 1 !important;
 }
 .slide-wrap .slide .slide1 {
-  background: url(/images/slide-1.jpg) no-repeat center;
+  background: url(./images/slide-1.jpg) no-repeat center;
 }
 .slide-wrap .slide .slide2 {
-  background: url(/images/slide-2.jpg) no-repeat center;
+  background: url(./images/slide-2.jpg) no-repeat center;
 }
 .slide-wrap .slide .slide3 {
-  background: url(/images/slide-3.jpg) no-repeat center;
+  background: url(./images/slide-3.jpg) no-repeat center;
 }
 .slide-wrap .slide .slide4 {
-  background: url(/images/slide-4.jpg) no-repeat center;
+  background: url(./images/slide-4.jpg) no-repeat center;
 }
 .slide-wrap .slide .slide5 {
-  background: url(/images/slide-5.jpg) no-repeat center;
+  background: url(./images/slide-5.jpg) no-repeat center;
 }/*# sourceMappingURL=style.css.map */
