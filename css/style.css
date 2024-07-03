@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 body {
   width: 393px;
   height: 780px;
@@ -52,9 +56,10 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  gap: 24px;
+  gap: 32px;
   width: 100%;
-  margin-top: 24px;
+  padding-top: 35px;
+  padding-bottom: 50px;
 }
 .btn-wrap > div {
   display: flex;
@@ -64,7 +69,7 @@ header h1 {
   width: 90%;
 }
 .btn-wrap .btn {
-  width: 40%;
+  width: 85%;
   height: 110px;
   background-color: rgba(255, 255, 255, 0.1450980392);
   font-family: "Oswald", "Noto Sans KR", sans-serif;
@@ -75,6 +80,13 @@ header h1 {
   line-height: 110px;
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.btn-wrap .btn.on {
+  display: flex;
+}
+
+.btn-c {
+  background: url(/images/main-btn/coach.jpg) no-repeat 50% 50%;
 }
 
 .video-wrap {
@@ -114,6 +126,7 @@ header h1 {
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4392156863));
 }
 .desc-wrap .desc .desc-info {
   display: flex;
@@ -185,40 +198,79 @@ header h1 {
   height: 15% !important;
 }
 
+.defender .player-info {
+  height: 85% !important;
+}
+.defender .player {
+  height: 15% !important;
+}
+
+.goalkeeper .player {
+  height: 43% !important;
+}
+
 .rashford {
-  background: url(./images/player/rashford-btn.jpg) no-repeat center;
+  background: url(/images/player/rashford-btn.jpg) no-repeat center;
 }
 
 .hojlund {
-  background: url(./images/player/hojlund-btn.jpg) no-repeat 0px -60px;
+  background: url(/images/player/hojlund-btn.jpg) no-repeat 0px -60px;
 }
 
 .garnacho {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/garnacho-btn.jpg) no-repeat center;
 }
 
 .anthony {
-  background: url(./images/player/antony-btn.jpg) no-repeat 0px -60px;
+  background: url(/images/player/antony-btn.jpg) no-repeat 0px -60px;
 }
 
 .bruno {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/fernandes-btn.jpg) no-repeat 50% 0%;
 }
 
 .casemiro {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/casemiro-btn.jpg) no-repeat;
 }
 
 .mount {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/mount-btn.jpg) no-repeat;
 }
 
 .mainoo {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/mainoo-btn.jpg) no-repeat 50% 68%;
 }
 
 .mctominay {
-  background: url(./images/player/garnacho-btn.jpg) no-repeat center;
+  background: url(/images/player/mctominay-btn.jpg) no-repeat 50% 9%;
+}
+
+.martinez {
+  background: url(/images/player/martinez-btn.jpg) no-repeat 50% 9%;
+}
+
+.maguire {
+  background: url(/images/player/maguire-btn.jpg) no-repeat 50% 9%;
+}
+
+.dalot {
+  background: url(/images/player/dalot-btn.jpg) no-repeat 50% 9%;
+}
+
+.bissaka {
+  background: url(/images/player/bissaka-btn.jpg) no-repeat 50% 9%;
+}
+
+.shaw {
+  background: url(/images/player/shaw-btn.jpg) no-repeat 50% 64%;
+}
+
+.onana {
+  background: url(/images/player/onana-btn.jpg) no-repeat 50% 0%;
+}
+
+.bayindir {
+  background: url(/images/player/bayindir-btn.jpg) no-repeat 50% 17%;
 }
 
 .slide-wrap {

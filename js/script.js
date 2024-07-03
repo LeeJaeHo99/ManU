@@ -2,6 +2,7 @@
 $(window).on('load', function(){
     setTimeout(function(){
         $('.intro').fadeOut();
+        $('html').css('overflow', 'visible');
     }, 2000);
 });
 
@@ -29,6 +30,7 @@ $('.close-info').click(function(){
     $('.desc-wrap').css('display', 'none');
 })
 
+
 $('.btn-a').click(function(){
     $('.attacker').css('display', 'flex');
 });
@@ -51,9 +53,47 @@ $('.btn-m').click(function(){
 $('.bruno').click(function(){
     $('.bruno-info').css('display', 'flex');
 })
+$('.casemiro').click(function(){
+    $('.casemiro-info').css('display', 'flex');
+})
+$('.mount').click(function(){
+    $('.mount-info').css('display', 'flex');
+})
+$('.mainoo').click(function(){
+    $('.mainoo-info').css('display', 'flex');
+})
+$('.mctominay').click(function(){
+    $('.mctominay-info').css('display', 'flex');
+})
+
+
+
 $('.btn-d').click(function(){
     $('.defender').css('display', 'flex');
 })
+$('.martinez').click(function(){
+    $('.martinez-info').css('display', 'flex');
+})
+$('.maguire').click(function(){
+    $('.maguire-info').css('display', 'flex');
+})
+$('.dalot').click(function(){
+    $('.dalot-info').css('display', 'flex');
+})
+$('.bissaka').click(function(){
+    $('.bissaka-info').css('display', 'flex');
+})
+$('.shaw').click(function(){
+    $('.shaw-info').css('display', 'flex');
+})
+
+
 $('.btn-g').click(function(){
     $('.goalkeeper').css('display', 'flex');
+})
+$('.onana').click(function(){
+    $('.onana-info').css('display', 'flex');
+})
+$('.bayindir').click(function(){
+    $('.bayindir-info').css('display', 'flex');
 })

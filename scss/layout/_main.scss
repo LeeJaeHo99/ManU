@@ -3,9 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 24px;
+    gap: 32px;
     width: 100%;
-    margin-top: 24px;
+    padding-top: 35px;
+    padding-bottom: 50px;
 
     > div{
         display: flex;
@@ -15,7 +16,7 @@
         width: 90%;
     }
     .btn{
-        width: 40%;
+        width: 85%;
         height: 110px;
         background-color: #ffffff25;
         font-family: "Oswald", 'Noto Sans KR', sans-serif;
@@ -27,7 +28,11 @@
         border-radius: 16px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+    .btn.on{display: flex;}
 }
+.btn-c{background: url(/images/main-btn/coach.jpg) no-repeat 50% 50%;}
+
+
 .video-wrap{
     width: 100%;
 
@@ -66,6 +71,7 @@
             left: 50%;
             transform: translateX(-50%);
             width: 70%;
+            filter: drop-shadow(0px 0px 10px #00000070);
         }
         .desc-info{
             display: flex;
